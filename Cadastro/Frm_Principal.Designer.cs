@@ -43,16 +43,17 @@ namespace Cadastro
             this.dataGrid.Location = new System.Drawing.Point(44, 26);
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.ReadOnly = true;
+            this.dataGrid.RowHeadersVisible = false;
             this.dataGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGrid.Size = new System.Drawing.Size(382, 150);
+            this.dataGrid.Size = new System.Drawing.Size(214, 150);
             this.dataGrid.TabIndex = 0;
             this.dataGrid.DoubleClick += new System.EventHandler(this.dataGrid_DoubleClick);
             // 
             // btn_Incluir
             // 
-            this.btn_Incluir.Location = new System.Drawing.Point(44, 207);
+            this.btn_Incluir.Location = new System.Drawing.Point(44, 194);
             this.btn_Incluir.Name = "btn_Incluir";
-            this.btn_Incluir.Size = new System.Drawing.Size(102, 38);
+            this.btn_Incluir.Size = new System.Drawing.Size(102, 32);
             this.btn_Incluir.TabIndex = 1;
             this.btn_Incluir.Text = "Incluir";
             this.btn_Incluir.UseVisualStyleBackColor = true;
@@ -62,7 +63,7 @@ namespace Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(475, 281);
+            this.ClientSize = new System.Drawing.Size(364, 249);
             this.Controls.Add(this.btn_Incluir);
             this.Controls.Add(this.dataGrid);
             this.Name = "Frm_Principal";

@@ -20,6 +20,7 @@ namespace Cadastro
         private void Frm_Principal_Load(object sender, EventArgs e)
         {
             dataGrid.DataSource = Banco.MostraTodos();
+            dataGrid.Columns[0].Visible = false;
         }
 
         private void dataGrid_DoubleClick(object sender, EventArgs e)
